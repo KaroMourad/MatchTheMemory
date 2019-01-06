@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Match The Memory</title>
+	<style>
+		
+	body {
+		background-color: white;
+	}
+	#main {
+		position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+	}
+	#table {
+		width: 570px;
+		height: 500px;
+	}
+	td {
+		width: 80px;
+		height: 80px;
+		padding: 5px;
+		border: 0px;
+	}
+	button {
+		width: 80px;
+		height: 80px;
+		border-radius: 8px;
+		border: 0px;
+		background-color: grey;
+		transition: 0.5s;
+		box-shadow: 0px 2px 10px black ;
+	}
+	button:hover {
+		box-shadow: 0 0px 10px 0 black, 0 3px 30px 1px black;
+	}
+	</style>
+</head>
+<body>
+	<div id = "main">
+		<table id = "table">
+			<tr>
+				<td><button id="button1" onclick="openTheButton(1)"></button></td>
+				<td><button id="button2" onclick="openTheButton(2)"></button></td>
+				<td><button id="button3" onclick="openTheButton(3)"></button></td>
+				<td><button id="button4" onclick="openTheButton(4)"></button></td>
+				<td><button id="button5" onclick="openTheButton(5)"></button></td>
+				<td><button id="button6" onclick="openTheButton(6)"></button></td>
+			</tr>
+			<tr>
+				<td><button id="button7" onclick="openTheButton(7)"></button></td>
+				<td><button id="button8" onclick="openTheButton(8)"></button></td>
+				<td><button id="button9" onclick="openTheButton(9)"></button></td>
+				<td><button id="button10" onclick="openTheButton(10)"></button></td>
+				<td><button id="button11" onclick="openTheButton(11)"></button></td>
+				<td><button id="button12" onclick="openTheButton(12)"></button></td>
+			<tr>
+				<td><button id="button13" onclick="openTheButton(13)"></button></td>
+				<td><button id="button14" onclick="openTheButton(14)"></button></td>
+				<td><button id="button15" onclick="openTheButton(15)"></button></td>
+				<td><button id="button16" onclick="openTheButton(16)"></button></td>
+				<td><button id="button17" onclick="openTheButton(17)"></button></td>
+				<td><button id="button18" onclick="openTheButton(18)"></button></td>
+			</tr>
+			<tr>
+				<td><button id="button19" onclick="openTheButton(19)"></button></td>
+				<td><button id="button20" onclick="openTheButton(20)"></button></td>
+				<td><button id="button21" onclick="openTheButton(21)"></button></td>
+				<td><button id="button22" onclick="openTheButton(22)"></button></td>
+				<td><button id="button23" onclick="openTheButton(23)"></button></td>
+				<td><button id="button24" onclick="openTheButton(24)"></button></td>
+			</tr>
+			<tr>
+				<td><button id="button25" onclick="openTheButton(25)"></button></td>
+				<td><button id="button26" onclick="openTheButton(26)"></button></td>
+				<td><button id="button27" onclick="openTheButton(27)"></button></td>
+				<td><button id="button28" onclick="openTheButton(28)"></button></td>
+				<td><button id="button29" onclick="openTheButton(29)"></button></td>
+				<td><button id="button30" onclick="openTheButton(30)"></button></td>
+			</tr>
+		</table>
+	</div>
+	<script src = "MatchTheMemory.js"></script>
+	<img id = "myimg">
+</body>
+</html>
